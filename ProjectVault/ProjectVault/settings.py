@@ -37,7 +37,21 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    #  apps of ProjectVault
+    'projects',
+    'blog',
+    'contact',
+    'pages',
+    'accounts',
 ]
+
+AUTH_USER_MODEL = "accounts.CustomeUser"
+
+
+
+
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
